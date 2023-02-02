@@ -21,4 +21,4 @@ One of them consists in the use of timestamps from the server and the other cons
 In order to achieve a better signal quality, an acoustic Delay and Sum Beamforming (DAS) is proposed. It has been implemented in Python and it can be found at "Beamforming/" directory.
 
 # Documentation
-Further information can be found at "MEMORIA/MEMORIA/" directory where all the details are contained.
+Further information can be found at "Informe.pdf" file, where all the details are contained.
