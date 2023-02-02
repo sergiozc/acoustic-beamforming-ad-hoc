@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BeamREC</string>
+    <string name="connect">Connect</string>
+    <string name="pulsa_para_conectar_con_el_servidor">Pulsa para conectar con el servidor</string>
+</resources>

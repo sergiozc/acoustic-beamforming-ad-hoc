@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.usuario.beamrec.MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="344dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="80dp"
+        android:onClick="Siguiente"
+        android:text="@string/connect"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="294dp"
+        android:layout_height="77dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/pulsa_para_conectar_con_el_servidor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="73dp"
+        android:layout_marginLeft="26dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:ignore="RtlHardcoded"
+        android:layout_marginStart="26dp" />
+
+
+</android.support.constraint.ConstraintLayout>
