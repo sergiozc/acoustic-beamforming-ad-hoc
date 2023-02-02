@@ -1,0 +1,9 @@
+- Tengo que adaptar el gradiente del tiempo de vuelo (HECHO)
+- Tengo que adaptar la función fcriterion, teniendo en cuenta el tiempo de vuelo 
+en lugar de la distancia. (HECHO)
+- Estimar los tiempos de vuelo
+
+
+¿Qué es Fsw en el código de generación de la excitación?
+¿Qué es lo de perturbar las estimas iniciales para evitar local mínima?
+¿Cómo estimar los tiempos de vuelo con el TOA medido y el TDOA medido?
